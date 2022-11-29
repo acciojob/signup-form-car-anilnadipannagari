@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form>
+<!-- 	<form>
        <div>
 		     <label for="name" id="name">Name*</label>
 	         <input type="text"  id="name" required>  
@@ -44,7 +44,43 @@
 		<div>
 			<button type="submit">submit button</button>
 		</div>
-	</form>
+	</form> -->
+	<form action="mail to:saduvinuthna24@gmail.com" method="post">
+		<label for="name">Name</label>
+		<input type="text" required id="name" placeholder="Type  name" name="name">
+		<br><br>
+
+		<label for="email">Email:</label>
+		<input type="text" required id="email" placeholder="Type mail" name="email">
+		<br><br>
+
+		<label for="gender">Gender:</label>
+		<input type="radio" name="gender" id="gender" value="M" re > Male
+		<input type="radio" name="gender" id="gender" value="F" > Female
+		<input type="radio" name="gender" id="gender" value="O" > Others
+		<br><br>
+      
+		<label for="cars">Car Brands </label>
+		<select  name="carbrand" id="cars">
+			<option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+		<br><br>
+		<label for="age">Age:</label>
+		<input type="number" name="age" id="age" required>
+		<br><br>
+
+		<label for="dob">DOB:</label>
+		<input type="date" name="dob" id="dob" required>
+		<br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" name="pwd" id="password" required>
+		<br><br>
+
+		<button type="submit">Submit</button>
+
 
 
 
